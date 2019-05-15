@@ -346,7 +346,7 @@
  * the fan will turn on when any selected extruder is above the threshold.
  */
 //#define E0_AUTO_FAN_PIN -1
-#define E0_AUTO_FAN_PIN FAN1_PIN // HE1 pins, 12/24V under the FAN pins
+#define E0_AUTO_FAN_PIN P2_04 // HE1 pins, 12/24V under the FAN pins
 #define E1_AUTO_FAN_PIN -1
 #define E2_AUTO_FAN_PIN -1
 #define E3_AUTO_FAN_PIN -1
