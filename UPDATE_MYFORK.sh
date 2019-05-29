@@ -17,5 +17,9 @@ git checkout bugfix-2.0.x-Ender3-SKRv1.3
 # and import updates from the udpated branch
 git rebase bugfix-2.0.x
 
+# to build and get latest deps:
+rm -rf .pioenvs .piolibdeps
+pio run -v
+
 # if all goes well, push updates back to origin
 git push origin
